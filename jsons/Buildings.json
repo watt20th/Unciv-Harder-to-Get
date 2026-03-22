@@ -1,0 +1,77 @@
+[
+  {
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [10] population [in this city] <during the [Classical era]>","[+1 Science] per [5] population [in this city] <during the [Medieval era]>"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Paper Maker",
+		"replaces": "Library",
+		"uniqueTo": "China",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["[+1 Science] per [10] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+  {
+		"name": "Royal Library",
+		"replaces": "Library",
+		"uniqueTo": "Assyria",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Science] per [10] population [in this city]",
+			"Comment [Provides 1 [Great Work of Writing] Slot]"
+		],
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{ "text": "[Great Work of Writing] Slot", "link": "Building/[Royal Library] [Great Work of Writing]" }
+		]
+	},
+	{
+		"name": "[Royal Library] [Great Work of Writing]",
+		"requiredBuilding": "Royal Library",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Unavailable <without [Great Work of Writing]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
+			"Provides [1] [Tourism] <in cities with a [Hotel]> <hidden from users>",
+			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Only available <in cities with a [Royal Library]> <hidden from users>",
+			"New [Military] units start with [10] XP [in this city]"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+  {
+	  "name": "University",
+	  "maintenance": 2,
+	 	"hurryCostModifier": 15,
+  	"percentStatBonus": {"science": 30},
+  	"specialistSlots": {"Scientist": 2},
+  	"requiredBuilding": "Library",
+  	"uniques": ["[+10 Science] per [10] population [in this city]"],
+  	"requiredTech": "Education"
+	},
+	{
+  	"name": "Wat",
+  	"replaces": "University",
+  	"uniqueTo": "Siam",
+  	"maintenance": 2,
+  	"hurryCostModifier": 15,
+  	"percentStatBonus": {"science": 30},
+  	"specialistSlots": {"Scientist": 2},
+  	"culture": 3,
+  	"requiredBuilding": "Library",
+  	"uniques": ["[+10 Science] per [10] population [in this city]"],
+  	"requiredTech": "Education"
+	},
+]
