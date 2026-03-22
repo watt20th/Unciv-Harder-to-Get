@@ -1,0 +1,19 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+        //AI
+        "[-15]% construction time for [All] improvements <for [{Major} {AI player}] Civilizations>",
+
+        //Rebalancing
+        "[+5]% Culture cost of adopting new Policies <for every [Adopted [All] Policies]>",
+        "[+100]% Gold from Great Merchant trade missions",
+        "[-1 Science] per [1] population [in all cities]",
+        "[+10]% Culture [in Capital]",
+      
+        //Military
+        "[+15]% Strength <for [{Military} {Melee}] units> <when attacking> <when adjacent to a [{Military} {Friendly} {Ranged}] unit>",
+        "[+15]% Strength <for [{Military} {Ranged}] units> <when defending> <when adjacent to a [{Military} {Friendly} {Melee}] unit>",
+        "[+30]% to Flank Attack bonuses",
+        "[+50]% Strength <for [Military] units> <when defending> <when [Wounded]> <in [Friendly Land] tiles> <within [2] tiles of a [City center]>",
+    ]
+}
