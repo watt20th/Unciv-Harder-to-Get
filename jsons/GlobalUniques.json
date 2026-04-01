@@ -5,10 +5,7 @@
         "[-15]% construction time for [All] improvements <for [{Major} {AI player}] Civilizations>",
 
         //Rebalancing
-        "[+5]% Culture cost of adopting new Policies <for every [Adopted [All] Policies]>",
         "[+100]% Gold from Great Merchant trade missions",
-        "[-1 Science] per [1] population [in all cities]",
-        "[+10]% Culture [in Capital]",
 
         //Cities
         "[+200]% Strength <for [Military] units> <vs cities> <when attacking> <before the [Medieval era]>",
