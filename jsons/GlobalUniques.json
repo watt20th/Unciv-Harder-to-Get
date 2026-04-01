@@ -9,6 +9,9 @@
         "[+100]% Gold from Great Merchant trade missions",
         "[-1 Science] per [1] population [in all cities]",
         "[+10]% Culture [in Capital]",
+
+        //Cities
+        "[+200]% Strength <for [Military] units> <vs cities> <when attacking> <before the [Medieval era]>",
       
         //Military
         "[+15]% Strength <for [{Military} {Melee}] units> <when attacking> <when adjacent to a [{Military} {Friendly} {Ranged}] unit>",
