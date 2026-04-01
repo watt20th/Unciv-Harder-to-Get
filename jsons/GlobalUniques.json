@@ -9,6 +9,9 @@
 
         //Cities
         "Each city founded increases Science cost of Technologies [75]% less than normal",
+        "[+25]% Culture cost of adopting new Policies <when number of [Cities] is more than [1]>",
+        "[+25]% Culture cost of adopting new Policies <when number of [Cities] is more than [4]>",
+        "[+50]% Culture cost of adopting new Policies <when number of [Cities] is more than [12]>",
         "[+200]% Strength <for [Military] units> <vs cities> <when attacking> <before the [Medieval era]>",
       
         //Military
