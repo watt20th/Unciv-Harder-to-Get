@@ -6,6 +6,8 @@
 
         //Rebalancing
         "[+100]% Gold from Great Merchant trade missions",
+        "[-1 Science] per [2] population [in all cities]",
+        "[-2 Science] per [10] population [in all cities]",
 
         //Cities
         "Each city founded increases Science cost of Technologies [75]% less than normal",
