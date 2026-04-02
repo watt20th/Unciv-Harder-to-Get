@@ -18,4 +18,68 @@
         "requiredTech": "Masonry",
         "uniques": ["Destroyed when the city is captured",]
     },
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+2 Science] per [10] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Paper Maker",
+		"replaces": "Library",
+		"uniqueTo": "China",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["[+2 Science] per [10] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Royal Library",
+		"replaces": "Library",
+		"uniqueTo": "Assyria",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"[+2 Science] per [10] population [in this city]",
+			"Comment [Provides 1 [Great Work of Writing] Slot]"
+		],
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{ "text": "[Great Work of Writing] Slot", "link": "Building/[Royal Library] [Great Work of Writing]" }
+		]
+	},
+	{
+		"name": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+3 Science] from [Great Improvement] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Wat",
+		"replaces": "University",
+		"uniqueTo": "Siam",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"culture": 3,
+		"requiredBuilding": "Library",
+		"uniques": ["[+3 Science] from [Great Improvement] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Public School",
+		"science": 3,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+5 Science] per [10] population [in this city]"],
+		"requiredTech": "Scientific Theory"
+	},
 ]
