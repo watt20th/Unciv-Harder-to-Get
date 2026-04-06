@@ -15,6 +15,7 @@
         "[+25]% Culture cost of adopting new Policies <when number of [Cities] is more than [4]>",
         "[+50]% Culture cost of adopting new Policies <when number of [Cities] is more than [12]>",
         "[+150]% Strength <for [Military] units> <vs cities> <when attacking> <before the [Medieval era]>",
+        "[+200]% City Strength from defensive buildings <when attacking> <before the [Medieval era]>"
       
         //Military
         "[+15]% Strength <for [{Military} {Melee}] units> <when attacking> <when adjacent to a [{Military} {Friendly} {Ranged}] unit>",
