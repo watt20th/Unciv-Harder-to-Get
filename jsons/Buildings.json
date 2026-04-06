@@ -2,7 +2,7 @@
 	{
         "name": "Walls",
         "cityStrength": 1,
-        "cityHealth": 200,
+        "cityHealth": 60,
         "hurryCostModifier": 25,
         "requiredTech": "Masonry",
         "uniques": ["Destroyed when the city is captured"]
@@ -13,7 +13,7 @@
         "uniqueTo": "Babylon",
         "cost": 65,
         "cityStrength": 1,
-        "cityHealth": 300,
+        "cityHealth": 110,
         "hurryCostModifier": 25,
         "requiredTech": "Masonry",
         "uniques": ["Destroyed when the city is captured",]
